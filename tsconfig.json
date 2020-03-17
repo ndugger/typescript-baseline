@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "experimentalDecorators": true,
+        "jsx": "react",
+        "jsxFactory": "Cortex.render",
+        "lib": [
+            "dom",
+            "ESNext"
+        ],
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "paths": {
+            "*": [ "*" ],
+            "program/*": [ "./program/*" ]
+        },
+        "removeComments": true,
+        "sourceMap": true,
+        "target": "ESNext"
+    },
+    "include": [
+        "**/*",
+        "node_modules/cortex/**/*.ts"
+    ]
+}
